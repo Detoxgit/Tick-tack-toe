@@ -8,6 +8,38 @@
     <link href="styles.css" rel="stylesheet"></link>
 </head>
 <body>
-    
+    <header class="head">
+        <h1 class="heading">X Tic Tac Toe O</h1>
+    </header>
+    <main>
+        <div class="button-container">
+            <button class="play">Play Game</button>
+        </div>
+        
+    <div class="main">
+            <dialog class="dialog-box">
+                <form>
+                    <h1>Game Settings</h1>
+                    <label for="player1">Enter Name for player one</label>
+                    <input type="text" placeholder="Player one" id="player1">
+                    <label for="player2">Enter Name for player two</label>
+                    <input type="text" placeholder="Player two" id="player2">
+                    <button type="submit" class="start">Start Game!</button>
+                </form>
+            </dialog>
+        </div>
+        <p class="messages"></p>
+        <div class="grid">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+    </main>
 </body>
 </html>
